@@ -1,0 +1,62 @@
+#head{
+    text-align: center;
+    background-color: orange;
+}
+h1 {
+    display: inline-block;
+}
+h2 {
+    display: inline-block;
+}
+#showArea{
+  background-color: lightgrey;
+  z-index: 1;
+}
+
+#search-box{
+    position: fixed;
+    width:75%;
+    top:20%;
+    left:15%;
+    right:15%;
+    height: auto;
+    background-color: whitesmoke;
+    border:1px solid black;
+    text-align: center;
+    z-index: 2;
+    display: none;
+}
+.article{
+  padding: 10px 0;
+  font-size: 120%;
+  height: auto;
+  text-overflow: ellipsis;
+}
+.publishedTime{
+  font-size: 80%;
+  color: gray;
+}
+.url{
+   font-size: 150%;
+  }
+@media screen and (max-width: 768px){
+ .img-content, .content{
+padding: 0;
+}
+}
+#loading-gif{
+  display: none;
+  position: fixed;
+  left: 45%;
+  right: 15%;
+  top: 25%;
+  width: 10%;
+}
+#close {
+  position: absolute !important;
+  right: 10px !important;
+  top: 10px !important;
+}
+#search-form{
+  padding: 20px;
+}

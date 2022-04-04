@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My News</title>
+
+    <!-- Bootstrap3-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="asm4.css">
+    <!--JS-->
+    <script src="asm4.js"></script>
+  </head>
+
+  <body>
+      <div class="container-fluid" id="head">
+        <h1 id="Home">My News</h1> 
+        <h2><span class="glyphicon glyphicon-search" id="search"></span></h2>
+      </div>
+      <div class="container" id="search-box">
+        <span class="glyphicon glyphicon-remove" id="close"></span>
+        <form class="form-inline" id="search-form">
+          <div class="form-group">
+            <label for="search-keywords">Keywords</label>
+            <input id="search-keywords" name="search-keywords" type="text">
+        </div>
+        <div class="form-group">
+            <label for="start">From</label>
+            <input type="date" name="search-from" id="start">
+        </div>
+        <div class="form-group">
+            <label for="end">To</label>
+            <input type="date" name="search-from" id="end">
+        </div>
+        <div class="form-group">
+          <button type="button" class="btn btn-default" id="search-submit">Search</button>
+        </form>
+      </div>   
+    </div>
+    <div>
+      <img id="loading-gif" src="https://media4.giphy.com/media/L05HgB2h6qICDs5Sms/giphy.gif" alt="loading...">
+  </div>
+   <div id="showArea" class="container-fluid">
+         
+   </div>      
+
+    
+  </body>
+</html>
